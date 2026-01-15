@@ -77,12 +77,14 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
+      - name: Debug baseURL
+        run: echo "BASE URL = '${{ steps.pages.outputs.base_url }}'"
       - name: Build the site
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --baseURL "https://ghassanguessous.github.io/gguess-blog/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
