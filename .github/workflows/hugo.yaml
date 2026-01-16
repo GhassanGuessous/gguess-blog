@@ -77,8 +77,6 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
-      - name: Debug baseURL
-        run: echo "BASE URL = '${{ steps.pages.outputs.base_url }}'"
       - name: Build the site
         run: |
           hugo \
