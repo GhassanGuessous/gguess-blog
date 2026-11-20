@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ghassanguessous.github.io/gguess-blog/sitemap.xml
