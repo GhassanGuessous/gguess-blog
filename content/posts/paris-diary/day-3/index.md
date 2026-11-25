@@ -88,4 +88,4 @@ After such a long day I went back to **rue de Buci** for a hot chocolate. I like
 
 ---
 
-*Previous: [Day 2]({{< relref "/posts/paris-diary/day-2" >}}) · Next: Day 4 (coming soon)*
+*Previous: [Day 2]({{< relref "/posts/paris-diary/day-2" >}}) · Next: [Day 4]({{< relref "/posts/paris-diary/day-4" >}})*
